@@ -1,0 +1,79 @@
+#sellingLider {
+  margin-bottom: 50px;
+}
+
+#sellingLider > div > div > div.owl-dots {
+  all: unset;
+  position: absolute;
+  right: 150px;
+  z-index: 999;
+  display: flex;
+  gap: 5px;
+  bottom: -30px;
+  right: 20px;
+}
+#sellingLider > div > div > div.owl-dots > button.owl-dot.active {
+  background-color: black;
+}
+
+#sellingLider .owl-carousel {
+  position: relative;
+}
+
+.daily-discount-bottom .see-all-sale {
+  font-size: 18px;
+}
+.daily-discount-bottom {
+  position: relative;
+  width: 96%;
+  margin: auto;
+  background-color: #f0f1f2;
+  border: 2px solid rgba(0, 0, 0, 0.08);
+  transition: all 0.6s;
+  padding: 10px;
+  height: 50px;
+  transition: all 0.6s;
+}
+
+.daily-discount-bottom:hover {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.selling-lider-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 96%;
+  margin: auto;
+}
+.selling-lider-head .special_header {
+  margin-left: 0;
+}
+
+.selling-lider-head nav {
+  width: 75%;
+}
+
+#sellingLider > div > div.selling-lider-head .active {
+  background-color: transparent;
+}
+
+#sellingLider .nav-item {
+  margin-bottom: 15px;
+}
+
+#sellingLider .nav-link {
+  all: unset;
+  padding: 10px;
+  color: black !important;
+  background-color: #edf1f5;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#sellingLider .nav-tabs {
+  justify-content: flex-end;
+}

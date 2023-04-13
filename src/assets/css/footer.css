@@ -1,0 +1,79 @@
+#footer{
+    background-color: #253444;
+    color: white;
+    padding: 30px;
+    text-align: left;
+}
+
+#footer a{
+    color: white !important;
+}
+
+#footer  a{
+    transition: all .5s ease !important;
+    opacity: 1;
+    font-size: 12px;
+}
+
+#footer .links ul li{
+   width: 200px;
+}
+
+
+#footer .links ul li:nth-child(1){
+    font-weight: 700 !important;
+    font-size: 14px;
+}
+
+#footer ul li:nth-child(1){
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+#footer a:hover{
+   color: red !important;
+}
+
+#footer .links{
+    display: flex;
+
+}
+
+#footer .contact ul{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+#footer .contact ul a{
+    display: flex;
+}
+
+#footer i{
+    font-size: 20px;
+    margin-right: 10px;
+}
+#footer .contact ul a img{
+    width: 15px;
+    height: 20px;
+}
+
+#footer .social-accounts ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+#footer .social-accounts ul li:nth-child(1){
+ width: 100%;
+
+}
+
+
+.footer-rights{
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+}

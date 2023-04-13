@@ -1,0 +1,141 @@
+@font-face {
+  font-family: "montserrat"; /*Can be any text*/
+  src: local("AirbnbCerealLight"),
+    url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap")
+      format("truetype");
+}
+* {
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: black !important;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li > a {
+  color: gray !important;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+#header a:hover {
+  color: red !important;
+  transition: all 0.3s;
+}
+
+#header {
+  margin-top: 8px;
+}
+
+#header-bottom-section {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.feaheart,
+.feascale {
+  position: relative;
+}
+.topbar_count {
+  position: absolute;
+  top: -6px;
+  color: red;
+}
+
+.info ul li:first-child span {
+  font-size: 15px;
+  color: green !important;
+}
+
+.info{
+  margin-left: 118px;
+}
+.menu-icon {
+  all: unset;
+  font-family: "Montserrat", sans-serif !important;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#header-bottom-section .section-menu .menu-icon:hover p,
+#header-bottom-section .section-menu .menu-icon:hover svg path {
+  color: #e50439;
+  fill: #e50439;
+  transition: all 0.3s;
+}
+
+#header-bottom-section a:hover svg path {
+  fill: red;
+  transition: all 0.3s;
+}
+#header-bottom-section a {
+  cursor: pointer;
+}
+.menu-icon p {
+  margin: 0;
+}
+
+.search-form {
+  position: relative;
+}
+.search-form::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 40px;
+  border: 1px solid rgb(211, 206, 206);
+  height: 43px;
+}
+
+#title-search-input {
+  padding: 10px;
+  border-radius: 30px;
+  font-size: 14px;
+  outline: none;
+}
+
+#header-bottom-section > div > div > div.col-lg-5.col-6 > form > div > svg {
+  position: absolute;
+  top: 11px;
+  right: 12px;
+}
+
+.login-cart ul {
+    all: unset;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 16px;
+  justify-content: flex-end;
+
+}
+.login-cart ul li{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.login-cart ul li a{
+font-size: 15px;
+color: black !important;
+text-align: center;
+}
+
+
+
+.cart_count{
+    position: absolute;
+    top: -10px;
+    left: 9px;
+    color: red;
+    font-size: 13px;
+}

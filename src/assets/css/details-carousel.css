@@ -1,0 +1,48 @@
+.slick-slider {
+  width: 100% !important;
+}
+
+#product_details
+  > div.product-info
+  > div
+  > div
+  > div.slick-slider.slick-vertical.slick-initialized {
+  width: 100px !important;
+}
+
+.slick-list img {
+  width: 100% !important;
+  height: 370px !important;
+  object-fit: contain;
+}
+
+#product_details .mini-img {
+  width: 68px !important;
+  height: 70px !important;
+  object-fit: contain;
+}
+
+
+.slick-list {
+  height: 400px;
+  width: 455px;
+}
+
+.slick-slider button::before {
+  color: red !important;
+  font-size: 30px;
+  z-index: 99;
+}
+
+#product_details
+  > div.product-info
+  > div
+  > div
+  > div.slick-slider.slick-vertical.slick-initialized {
+  height: 400px;
+}
+
+.slick-prev,
+.slick-next {
+  z-index: 99;
+}

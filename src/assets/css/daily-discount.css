@@ -1,0 +1,45 @@
+#dailyDiscount {
+  margin-bottom: 50px;
+}
+
+#dailyDiscount .owl-dots {
+  position: absolute;
+  right: 150px;
+  z-index: 1;
+  display: flex;
+  gap: 5px;
+  bottom: -30px;
+  right: 20px;
+  background: transparent;
+  border: none;
+}
+#dailyDiscount > div > div > div.owl-dots > button.owl-dot.active {
+  background-color: black;
+}
+
+#dailyDiscount .owl-carousel {
+  position: relative;
+}
+
+.daily-discount-bottom .see-all-sale{
+    font-size: 18px;
+}
+.daily-discount-bottom {
+  position: absolute;
+  bottom: -100px;
+  width: 96%;
+  bottom: 150px;
+  margin: auto;
+  background-color: #f0f1f2;
+  border: 2px solid rgba(0, 0, 0, 0.08);
+  transition: all 0.6s;
+  padding: 10px;
+  height: 50px;
+  transition: all 0.6s;
+}
+
+.daily-discount-bottom:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
