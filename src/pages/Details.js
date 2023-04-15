@@ -7,6 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 import AsNavFor from "../components/DetailsSlider";
 import SeasonSale from "../components/SeasonSale";
 import SimilarProducts from "../components/SimilarProducts";
+import { Link } from "react-router-dom";
 
 export default function Details() {
   return (
@@ -153,7 +154,7 @@ export default function Details() {
                     <button className="red" title="Red"></button>
                   </div>
                   <div className="label_popovers">
-                    <a>
+                    <Link>
                       <img
                         class="lazy loaded"
                         src="https://kontakt.az/wp-content/themes/kontakt8/ktn-assets/assets/icons/nagd.png"
@@ -161,8 +162,8 @@ export default function Details() {
                         alt=""
                         data-was-processed="true"
                       />
-                    </a>
-                    <a>
+                    </Link>
+                    <Link>
                       <img
                         class="lazy loaded"
                         src="https://kontakt.az/wp-content/themes/kontakt8/ktn-assets/assets/icons/kart.png"
@@ -170,8 +171,8 @@ export default function Details() {
                         alt=""
                         data-was-processed="true"
                       />
-                    </a>
-                    <a>
+                    </Link>
+                    <Link>
                       <img
                         class="lazy loaded"
                         src="https://kontakt.az/wp-content/themes/kontakt8/ktn-assets/assets/icons/online.png"
@@ -179,8 +180,8 @@ export default function Details() {
                         alt=""
                         data-was-processed="true"
                       />
-                    </a>
-                    <a>
+                    </Link>
+                    <Link>
                       <img
                         class="lazy loaded"
                         src="https://kontakt.az/wp-content/themes/kontakt8/ktn-assets/assets/icons/qapida.png"
@@ -188,8 +189,8 @@ export default function Details() {
                         alt=""
                         data-was-processed="true"
                       />
-                    </a>
-                    <a>
+                    </Link>
+                    <Link>
                       <img
                         class="lazy loaded"
                         src="https://kontakt.az/wp-content/themes/kontakt8/ktn-assets/assets/2021/taksit_az.png"
@@ -197,7 +198,7 @@ export default function Details() {
                         alt=""
                         data-was-processed="true"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="product_price">
@@ -216,6 +217,7 @@ export default function Details() {
                   <p>Kredit Kalkulyatoru</p>
                   <div className="title-right">
                     <img
+                    alt=""
                       class="lazy loaded"
                       src="https://kontakt.az/wp-content/uploads/2022/09/birbank.png"
                       data-src="https://kontakt.az/wp-content/uploads/2022/09/birbank.png"
@@ -236,7 +238,7 @@ export default function Details() {
                     <span className="bar">
                       <span className="fill"></span>
                     </span>
-                    <input type="range" min="6" max="18" step="3" />
+                    <input type="range" min="6" max="18" step="3"  />
                   </div>
                   <ul>
                     <li>
@@ -287,7 +289,7 @@ export default function Details() {
                 role="tablist"
               >
                 <li className="nav-item nav-item-first nav-item-zero">
-                  <a
+                  <Link
                     className="nav-link active"
                     id="first-tab"
                     data-toggle="tab"
@@ -298,10 +300,10 @@ export default function Details() {
                   >
                     {" "}
                     Xüsusiyyətlər
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item nav-item-second">
-                  <a
+                  <Link
                     className="nav-link"
                     id="second-tab"
                     data-toggle="tab"
@@ -312,7 +314,7 @@ export default function Details() {
                   >
                     {" "}
                     İstifadəçi rəyləri
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import "../assets/css/footer.css";
+import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <footer id="footer">
@@ -10,57 +11,57 @@ export default function Footer() {
               <ul>
                 <li>İnformasiya</li>
                 <li>
-                  <a>Konfidensiallıq siyasəti</a>
+                  <Link>Konfidensiallıq siyasəti</Link>
                 </li>
                 <li>
-                  <a>Hissə-hissə ödəniş şərtləri</a>
+                  <Link>Hissə-hissə ödəniş şərtləri</Link>
                 </li>
                 <li>
-                  <a>Geri qaytarma siyasəti</a>
+                  <Link>Geri qaytarma siyasəti</Link>
                 </li>
                 <li>
-                  <a>Aylıq ödənişlərin həyata keçməsi</a>
+                  <Link>Aylıq ödənişlərin həyata keçməsi</Link>
                 </li>
                 <li>
-                  <a>Servis Mərkəzləri</a>
+                  <Link>Servis Mərkəzləri</Link>
                 </li>
               </ul>
 
               <ul>
                 <li>Müştərilər</li>
                 <li>
-                  <a>Saytın istifadə şərtləri</a>
+                  <Link>Saytın istifadə şərtləri</Link>
                 </li>
                 <li>
-                  <a>Korporativ satışlar</a>
+                  <Link>Korporativ satışlar</Link>
                 </li>
                 <li>
-                  <a>Zəmanətlər</a>
+                  <Link>Zəmanətlər</Link>
                 </li>
                 <li>
-                  <a>Şikayətlərin idarəolunma siyasəti</a>
+                  <Link>Şikayətlərin idarəolunma siyasəti</Link>
                 </li>
                 <li>
-                  <a>Ən yaxşı qiymətə zəmanət!</a>
+                  <Link>Ən yaxşı qiymətə zəmanət!</Link>
                 </li>
               </ul>
 
               <ul>
                 <li>Şirkət</li>
                 <li>
-                  <a>Şirkət haqqında</a>
+                  <Link>Şirkət haqqında</Link>
                 </li>
                 <li>
-                  <a>Karyera</a>
+                  <Link>Karyera</Link>
                 </li>
                 <li>
-                  <a>“Qarabağ” Proqramı</a>
+                  <Link>“Qarabağ” Proqramı</Link>
                 </li>
                 <li>
-                  <a>“Kontakt” Zəngilan sakinlərinə Zəfər payı çatdırdı</a>
+                  <Link>“Kontakt” Zəngilan sakinlərinə Zəfər payı çatdırdı</Link>
                 </li>
                 <li>
-                  <a>Şeş at, 10 qatını geri al!</a>
+                  <Link>Şeş at, 10 qatını geri al!</Link>
                 </li>
               </ul>
             </div>
@@ -70,28 +71,28 @@ export default function Footer() {
               <ul>
                 <li>Əlaqə</li>
                 <li>
-                  <a href="tel:*6060">
+                  <Link href="tel:*6060">
                     <div class="icon">
                     <i class="fas fa-mobile-android-alt"></i>
                     </div>
                     *6060
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="tel:+994123102424">
+                  <Link href="tel:+994123102424">
                     <div class="icon iconnomre">
                       <i class="fas fa-phone-alt"></i>
                     </div>
                     012 310 24 24
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a>
+                  <Link>
                     <div class="icon">
                     <i class="fas fa-map-marker-alt"></i>
                     </div>
                     Mağazalarımız xəritədə
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -99,41 +100,41 @@ export default function Footer() {
               <ul>
                 <li>Bizimlə qalın</li>
                 <li>
-                  <a target="_blank" href="https://bit.ly/KontaktHome_Facebook">
+                  <Link target="_blank" href="https://bit.ly/KontaktHome_Facebook">
                     <i class="fab fa-facebook"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a>
+                  <Link>
                     <i class="fab fa-youtube"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a>
+                  <Link>
                     <i class="fab fa-instagram"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a>
+                  <Link>
                     <i class="fab fa-linkedin"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a>
+                  <Link>
                     <i class="fab fa-whatsapp"></i>
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a>
+                  <Link>
                     <i class="fab fa-telegram"></i>
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a>
+                  <Link>
                     <i class="fab fa-tiktok"></i>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

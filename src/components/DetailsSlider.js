@@ -51,17 +51,17 @@ export default class AsNavFor extends Component {
           ref={(slider) => (this.slider2 = slider)}
         >
           <div>
-            <img className="mini-img" src="https://kontakt.az/wp-content/uploads/2022/07/Galaxy-A13-Black_png.webp" style={imgStyle} />
+            <img alt="" className="mini-img" src="https://kontakt.az/wp-content/uploads/2022/07/Galaxy-A13-Black_png.webp" style={imgStyle} />
           </div>
           <div>
-            <img className="mini-img" src="https://kontakt.az/wp-content/uploads/2022/07/img_id2814380829113365276_png.webp" style={imgStyle} />
+            <img alt="" className="mini-img" src="https://kontakt.az/wp-content/uploads/2022/07/img_id2814380829113365276_png.webp" style={imgStyle} />
           </div>
           <div>
-            <img className="mini-img" src="https://kontakt.az/wp-content/uploads/2022/07/img_id8015951294121460512_png.webp" style={imgStyle} />
+            <img alt="" className="mini-img" src="https://kontakt.az/wp-content/uploads/2022/07/img_id8015951294121460512_png.webp" style={imgStyle} />
           </div>
         </Slider>
         <div className="big-photo">
-          <img src="https://kontakt.az/wp-content/uploads/2022/07/Galaxy-A13-Black_png.webp" />
+          <img alt="" src="https://kontakt.az/wp-content/uploads/2022/07/Galaxy-A13-Black_png.webp" />
         </div>
       </div>
     );

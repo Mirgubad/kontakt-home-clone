@@ -102,7 +102,7 @@ export default function DailyDiscount() {
                 </div>
                 <Link to="/details">
                   <div className="item-center">
-                    <img src={product.img} />
+                    <img src={product.img} alt="" />
                     <h6>{product.title}</h6>
                     <div className="owl-item-bottom">
                       <div>

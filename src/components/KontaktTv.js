@@ -1,5 +1,6 @@
 import React from "react";
 import "../assets/css/kontakt-tv.css";
+import { Link } from "react-router-dom";
 import OwlCarousel from "react-owl-carousel";
 
 const owlOptions={
@@ -25,7 +26,7 @@ export default function KontaktTv() {
       >
         <div className="item-video">
           <div className="vdo-container">
-            <a
+            <Link
               data-fancybox
               href="https://www.youtube.com/watch?v=KaRqqQsRoiw&ab_channel=KontaktHome"
             >
@@ -54,15 +55,16 @@ c0,0,15.975,15.975,0,31.951C371.859,239.622,41.712,415.346,41.712,415.346z"
               <img
                 data-qazy="true"
                 src="https://img.youtube.com/vi/KaRqqQsRoiw/mqdefault.jpg"
+                alt=""
               />
-            </a>
+            </Link>
           </div>
           <p className="title">Ağıllı evinin idarəsi öz əlindədir!</p>
         </div>
 
         <div className="item-video">
           <div className="vdo-container">
-            <a
+            <Link
               data-fancybox
               href="https://www.youtube.com/watch?v=fSg-pVFdCdQ&ab_channel=KontaktHome"
             >
@@ -91,15 +93,16 @@ c0,0,15.975,15.975,0,31.951C371.859,239.622,41.712,415.346,41.712,415.346z"
               <img
                 data-qazy="true"
                 src="https://img.youtube.com/vi/fSg-pVFdCdQ/mqdefault.jpg"
+                alt=""
               />
-            </a>
+            </Link>
           </div>
           <p className="title">Sony WH-1000XM5</p>
         </div>
 
         <div className="item-video">
           <div className="vdo-container">
-            <a
+            <Link
               data-fancybox
               href="https://www.youtube.com/watch?v=lU4rmm3Lamw&t=17s&ab_channel=KontaktHome"
             >
@@ -128,15 +131,16 @@ c0,0,15.975,15.975,0,31.951C371.859,239.622,41.712,415.346,41.712,415.346z"
               <img
                 data-qazy="true"
                 src="https://img.youtube.com/vi/lU4rmm3Lamw/mqdefault.jpg"
+                alt=""
               />
-            </a>
+            </Link>
           </div>
           <p className="title">Yeni Samsung Galaxy S23 seriyası gəldi!</p>
         </div>
 
         <div className="item-video">
           <div className="vdo-container">
-            <a
+            <Link
               data-fancybox
               href="https://www.youtube.com/watch?v=xov3fOpsgk0&ab_channel=KontaktHome"
             >
@@ -165,8 +169,9 @@ c0,0,15.975,15.975,0,31.951C371.859,239.622,41.712,415.346,41.712,415.346z"
               <img
                 data-qazy="true"
                 src="https://img.youtube.com/vi/xov3fOpsgk0/mqdefault.jpg"
+                alt=""
               />
-            </a>
+            </Link>
           </div>
           <p className="title">Kontakt Home-dan Huawei Nova Y70</p>
         </div>

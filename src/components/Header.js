@@ -9,16 +9,16 @@ function Header() {
             <div className="col-lg-7">
               <ul className="d-flex gap-3">
                 <li>
-                  <a>Korporativ satışlar</a>
+                  <Link>Korporativ satışlar</Link>
                 </li>
                 <li>
-                  <a>Mağazalar</a>
+                  <Link>Mağazalar</Link>
                 </li>
                 <li>
-                  <a>Servislər</a>
+                  <Link>Servislər</Link>
                 </li>
                 <li>
-                  <a>Tez-tez verilən suallar</a>
+                  <Link>Tez-tez verilən suallar</Link>
                 </li>
               </ul>
             </div>
@@ -26,12 +26,12 @@ function Header() {
               <div className="info">
                 <ul className="d-flex gap-4">
                   <li>
-                    <a>
+                    <Link>
                       <span>Aylıq ödəniş</span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a>
+                    <Link>
                       <div className="icon feaheart">
                         <svg
                           width="24"
@@ -48,10 +48,10 @@ function Header() {
                         </svg>
                         <span className="watchlist_count topbar_count">0</span>
                       </div>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a>
+                    <Link>
                       <div className="icon feascale">
                         <svg
                           width="24"
@@ -91,13 +91,13 @@ function Header() {
                         </svg>
                         <span className="compare_count topbar_count">0</span>
                       </div>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="tel:*6060">*6060</a>
+                    <Link href="tel:*6060">*6060</Link>
                   </li>
                   <li>
-                    <a>
+                    <Link>
                       <img
                         className="lazy loaded"
                         data-src="https://kontakt.az/wp-content/themes/kontakt8/ktn-assets/assets/azerbaijan-flag-round-icon-256.png?v=8.1165"
@@ -105,10 +105,10 @@ function Header() {
                         src="https://kontakt.az/wp-content/themes/kontakt8/ktn-assets/assets/azerbaijan-flag-round-icon-256.png?v=8.1165"
                         data-was-processed="true"
                       />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a>
+                    <Link>
                       <img
                         className="lazy loaded"
                         data-src="https://kontakt.az/wp-content/themes/kontakt8/ktn-assets/assets/russia-flag-round-icon-256.png?v=8.1165"
@@ -116,7 +116,7 @@ function Header() {
                         src="https://kontakt.az/wp-content/themes/kontakt8/ktn-assets/assets/russia-flag-round-icon-256.png?v=8.1165"
                         data-was-processed="true"
                       />
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -204,7 +204,7 @@ function Header() {
             <div className="col-md-3 v-desktop login-cart">
               <ul>
                 <li>
-                  <a>
+                  <Link>
                     <svg
                       width="24"
                       height="24"
@@ -227,10 +227,10 @@ function Header() {
                       ></path>
                     </svg>
                     <span>Daxil ol</span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a>
+                  <Link>
                     <svg
                       width="24"
                       height="24"
@@ -270,7 +270,7 @@ function Header() {
                     </svg>
                     <span>Səbət</span>
                     <span className="count cart_count">0</span>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

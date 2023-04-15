@@ -84,110 +84,110 @@ export default function SellingLider() {
           <nav>
             <ul class="nav nav-tabs round-edge-tab">
               <li class="nav-item">
-                <a
+                <Link
                   class="nav-link active"
                   href="#mobil-telefonlar"
                   data-toggle="tab"
                 >
                   Smartfon
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#tv-audio-video" data-toggle="tab">
+                <Link class="nav-link" href="#tv-audio-video" data-toggle="tab">
                   Televizor
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#komputerler" data-toggle="tab">
+                <Link class="nav-link" href="#komputerler" data-toggle="tab">
                   Noutbuk
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a
+                <Link
                   class="nav-link "
                   href="#kombiveradiatorlar"
                   data-toggle="tab"
                 >
                   Kombi
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="#smartsaatlar" data-toggle="tab">
+                <Link class="nav-link " href="#smartsaatlar" data-toggle="tab">
                   Smartsaat
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a
+                <Link
                   class="nav-link "
                   href="#qulaqliqlar-umumi"
                   data-toggle="tab"
                 >
                   Qulaqlıqlar
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="#soyuducu" data-toggle="tab">
+                <Link class="nav-link " href="#soyuducu" data-toggle="tab">
                   Soyuducu
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="#paltaryuyan" data-toggle="tab">
+                <Link class="nav-link " href="#paltaryuyan" data-toggle="tab">
                   Paltaryuyan
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="#tozsoran" data-toggle="tab">
+                <Link class="nav-link " href="#tozsoran" data-toggle="tab">
                   Tozsoran
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="#plansetler" data-toggle="tab">
+                <Link class="nav-link " href="#plansetler" data-toggle="tab">
                   Planşet
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="#qabyuyan" data-toggle="tab">
+                <Link class="nav-link " href="#qabyuyan" data-toggle="tab">
                   Qabyuyan
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="#utu" data-toggle="tab">
+                <Link class="nav-link " href="#utu" data-toggle="tab">
                   Ütü
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="#fenhava" data-toggle="tab">
+                <Link class="nav-link " href="#fenhava" data-toggle="tab">
                   Fen
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="#etceken" data-toggle="tab">
+                <Link class="nav-link " href="#etceken" data-toggle="tab">
                   Ətçəkən
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="#blender" data-toggle="tab">
+                <Link class="nav-link " href="#blender" data-toggle="tab">
                   Blender
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a
+                <Link
                   class="nav-link "
                   href="#mikrodalgali-soba"
                   data-toggle="tab"
                 >
                   Mikrodalğalı soba
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="#mebel" data-toggle="tab">
+                <Link class="nav-link " href="#mebel" data-toggle="tab">
                   Mebel
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="#tekstil" data-toggle="tab">
+                <Link class="nav-link " href="#tekstil" data-toggle="tab">
                   Tekstil
-                </a>
+                </Link>
               </li>{" "}
             </ul>
           </nav>
@@ -205,7 +205,7 @@ export default function SellingLider() {
               </div>
              <Link to="/details">
              <div className="item-center">
-                <img src={product.img} />
+                <img alt="" src={product.img} />
                 <h6>{product.title}</h6>
                 <div className="owl-item-bottom">
                   <div>
@@ -246,7 +246,7 @@ export default function SellingLider() {
         </OwlCarousel>
         {/* <div className="daily-discount-bottom">
           <h6 className="see-all-sale">
-            <a>Bütün təklifləri gör</a>
+            <Link>Bütün təklifləri gör</Link>
           </h6>
         </div> */}
       </div>

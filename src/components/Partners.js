@@ -23,31 +23,31 @@ export default function Partners() {
         {...owlOptions}
         >
           <div className="item">
-            <img src="https://kontakt.az/wp-content/uploads/2020/03/Meizu_png.webp" />
+            <img alt="" src="https://kontakt.az/wp-content/uploads/2020/03/Meizu_png.webp" />
           </div>
           <div className="item">
-            <img src="https://kontakt.az/wp-content/uploads/2020/04/1-1_png.webp" />
+            <img alt="" src="https://kontakt.az/wp-content/uploads/2020/04/1-1_png.webp" />
           </div>
           <div className="item">
-            <img src="https://kontakt.az/wp-content/uploads/2020/04/3_png.webp" />
+            <img alt="" src="https://kontakt.az/wp-content/uploads/2020/04/3_png.webp" />
           </div>
           <div className="item">
-            <img src="https://kontakt.az/wp-content/uploads/2020/04/2_png.webp" />
+            <img alt="" src="https://kontakt.az/wp-content/uploads/2020/04/2_png.webp" />
           </div>
           <div className="item">
-            <img src="https://kontakt.az/wp-content/uploads/2020/04/4_png.webp" />
+            <img alt="" src="https://kontakt.az/wp-content/uploads/2020/04/4_png.webp" />
           </div>
           <div className="item">
-            <img src="https://kontakt.az/wp-content/uploads/2021/09/Z_png.webp" />
+            <img alt="" src="https://kontakt.az/wp-content/uploads/2021/09/Z_png.webp" />
           </div>
           <div className="item">
-            <img src="https://kontakt.az/wp-content/uploads/2020/03/hp_png.webp" />
+            <img alt="" src="https://kontakt.az/wp-content/uploads/2020/03/hp_png.webp" />
           </div>
           <div className="item">
-            <img src="https://kontakt.az/wp-content/uploads/2022/09/1280px-PlayStation_logo_and_wordmark.svg-1_png.webp" />
+            <img alt="" src="https://kontakt.az/wp-content/uploads/2022/09/1280px-PlayStation_logo_and_wordmark.svg-1_png.webp" />
           </div>
           <div className="item">
-            <img src="https://kontakt.az/wp-content/uploads/2020/03/Acer_png.webp" />
+            <img alt=""  src="https://kontakt.az/wp-content/uploads/2020/03/Acer_png.webp" />
           </div>
         </OwlCarousel>
      </div>

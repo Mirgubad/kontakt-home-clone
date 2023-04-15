@@ -102,7 +102,7 @@ export default function SimilarProducts() {
               </div>
               <Link to="/details">
                 <div className="item-center">
-                  <img src={product.img} />
+                  <img alt="" src={product.img} />
 
                   <h6>{product.title}</h6>
                   <div className="owl-item-bottom">

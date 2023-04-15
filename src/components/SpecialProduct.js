@@ -104,7 +104,7 @@ export default function SpecialProduct() {
               </div>
               <Link to="details">
                 <div className="item-center">
-                  <img src={product.img} alt={product.title} />
+                  <img alt="" src={product.img} alt={product.title} />
                   <h6>{product.title}</h6>
                   <div className="owl-item-bottom">
                     <div>
