@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
 import "../assets/css/sidebar-menu.css";
 import Countdown from "./CountDown";
@@ -4399,42 +4398,42 @@ const HomeTop = () => {
             >
               <div className="carousel-inner">
                 <div className="carousel-item active">
-                  <img alt=""
+                  <img 
                     className="d-block w-100"
                     src="https://kontakt.az/wp-content/uploads/2022/09/kombi-az-1.jpg"
                     alt="First slide"
                   />
                 </div>{" "}
                 <div className="carousel-item ">
-                  <img alt=""
+                  <img 
                     className="d-block w-100"
                     src="https://kontakt.az/wp-content/uploads/2023/02/Artboard-1-copy@3x-scaled.jpg"
                     alt="First slide"
                   />
                 </div>
                 <div className="carousel-item">
-                  <img alt=""
+                  <img 
                     className="d-block w-100"
                     src="https://kontakt.az/wp-content/uploads/2023/01/Artboard-1@3x-scaled.webp"
                     alt="Second slide"
                   />
                 </div>
                 <div className="carousel-item">
-                  <img alt=""
+                  <img 
                     className="d-block w-100"
                     src="https://kontakt.az/wp-content/uploads/2023/02/4f1a4c62-0ed7-4bda-91c8-c66a37b10d0d_1_png.webp"
                     alt="Third slide"
                   />
                 </div>
                 <div className="carousel-item">
-                  <img alt=""
+                  <img 
                     className="d-block w-100"
                     src="https://kontakt.az/wp-content/uploads/2023/02/Macbook-Air_Valentines-Day-banner-aze_png.webp"
                     alt="Third slide"
                   />
                 </div>
                 <div className="carousel-item">
-                  <img alt=""
+                  <img 
                     className="d-block w-100"
                     src="https://kontakt.az/wp-content/uploads/2023/02/Galaxy-S23-Series-Pre-order-banner-aze-scaled.jpg"
                     alt="Third slide"
@@ -4530,7 +4529,7 @@ const HomeTop = () => {
                 <Countdown />
                 <div className="carousel-inner carousel-inner-right">
                   <div className="carousel-item active">
-                    <img alt=""
+                    <img 
                       className="d-block w-100"
                       src="https://kontakt.az/wp-content/uploads/gallery-tum/TM-DG-SBP-1105-SM-2177_fb0fe46be560964ec391377cd0fb50f0_w_png.webp"
                       alt="First slide"
@@ -4551,7 +4550,7 @@ const HomeTop = () => {
                     </div>
                   </div>
                   <div className="carousel-item">
-                    <img alt=""
+                    <img 
                       className="d-block w-100"
                       src="https://kontakt.az/wp-content/uploads/gallery-tum/TM-DG-KOT-1114-NB-1132_996b0ee98108335c7417e52da72c6b76_w_png.webp"
                       alt="Second slide"
@@ -4572,7 +4571,7 @@ const HomeTop = () => {
                     </div>
                   </div>
                   <div className="carousel-item">
-                    <img alt=""
+                    <img 
                       className="d-block w-100"
                       src="https://kontakt.az/wp-content/uploads/gallery-tum/TM-TK-QNT-1143-SF-0032_2ba5995dd25c38660b25555c5670661a_w.jpg"
                       alt="Third slide"
