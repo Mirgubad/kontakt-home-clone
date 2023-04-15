@@ -27,17 +27,7 @@ export default class AsNavFor extends Component {
       swipeToSlide: true,
       arrows:false
     };
-
-    const settings2 = {
-      dots: false,
-      slidesToShow: 1,
-      swipeToSlide: true,
-      arrows:false,
-      fade:true,
-      draggable:true
-    };
-    const img =
-      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/ba/29/5c/img-worlds-of-adventure.jpg?w=1200&h=-1&s=1";
+   
     const imgStyle = {
       height: "500px",
       width: "700px",

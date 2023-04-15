@@ -1,8 +1,7 @@
 import "../assets/css/owlslider.css";
 import OwlCarousel from "react-owl-carousel";
 import { Link } from "react-router-dom";
-import React, { useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from "react";
 
 const products = [
   {
@@ -104,7 +103,7 @@ export default function SpecialProduct() {
               </div>
               <Link to="details">
                 <div className="item-center">
-                  <img alt="" src={product.img} alt={product.title} />
+                  <img src={product.img} alt={product.title} />
                   <h6>{product.title}</h6>
                   <div className="owl-item-bottom">
                     <div>
