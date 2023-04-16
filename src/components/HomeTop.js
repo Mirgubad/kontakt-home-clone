@@ -4440,7 +4440,7 @@ const HomeTop = () => {
                   />
                 </div>
               </div>
-              <Link
+              <a
                 className="carousel-control-prev"
                 href="#carouselExampleIndicators1"
                 role="button"
@@ -4451,8 +4451,8 @@ const HomeTop = () => {
                   aria-hidden="true"
                 ></span>
                 <span className="sr-only"></span>
-              </Link>
-              <Link
+              </a>
+              <a
                 className="carousel-control-next"
                 href="#carouselExampleIndicators1"
                 role="button"
@@ -4463,7 +4463,7 @@ const HomeTop = () => {
                   aria-hidden="true"
                 ></span>
                 <span className="sr-only"></span>
-              </Link>
+              </a>
             </div>
 
             <section id="delivery">
@@ -4599,7 +4599,7 @@ const HomeTop = () => {
                 </div>
               </div>
 
-              <Link
+              <a
                 className="carousel-control-prev"
                 href="#carouselExampleIndicators2"
                 role="button"
@@ -4610,8 +4610,8 @@ const HomeTop = () => {
                   aria-hidden="true"
                 ></span>
                 <span className="sr-only"></span>
-              </Link>
-              <Link
+              </a>
+              <a
                 className="carousel-control-next"
                 href="#carouselExampleIndicators2"
                 role="button"
@@ -4622,7 +4622,7 @@ const HomeTop = () => {
                   aria-hidden="true"
                 ></span>
                 <span className="sr-only"></span>
-              </Link>
+              </a>
             </div>
           </div>
         </div>
