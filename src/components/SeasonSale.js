@@ -89,13 +89,13 @@ export default function SeasonSale() {
             <div className="item" key={product.id}>
               <div className="item-top-right">
                 <span
-                  style={{ display: product.fee ? "block" : "none" }}
+                  style={{ display: product.fee ? 'block' : 'none' }}
                   className="no_fee"
                 >
                   faizsiz
                 </span>
                 <span
-                  style={{ display: product.comission ? "block" : "none" }}
+                  style={{ display: product.comission ? 'block' : 'none' }}
                   className="no_comission"
                 >
                   komissiyasız

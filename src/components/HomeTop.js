@@ -2,12 +2,36 @@ import { Link } from "react-router-dom";
 import "../assets/css/sidebar-menu.css";
 import Countdown from "./CountDown";
 
+
+
 const HomeTop = () => {
   const firstIconStyle = { width: "22px", maxHeight: "30px" };
   const secondIconStyle = { display: "none", width: "22px", maxHeight: "30px" };
 
-  
+  const deliveryInfos = [
+    {
+      id: 1,
+      src: "https://kontakt.az/wp-content/uploads/2021/09/1.png",
+      title: "Qapıda rəsmiləşdirmə",
+      description: "Nağd, hissə-hissə və ya kartla ödəmə imkanı ilə",
+    },
+    {
+      id: 2,
+      src: "https://kontakt.az/wp-content/uploads/2021/09/2.png",
+      title: "Rəsmi Zəmanət",
+      description: "3 ilədək rəsmi zəmanət",
+    },
+    {
+      id: 3,
+      src: "https://kontakt.az/wp-content/uploads/2021/09/3.png",
+      title: "Pulsuz çatdırılma",
+      description: "Sürətli, təhlükəsiz və təmassız",
+    },
+  ];
+
+
   return (
+    
     <div id="homeTop">
       <div className="container">
         <div className="product-menu">
@@ -15,14 +39,16 @@ const HomeTop = () => {
             <li>
               <Link>
                 <div className="icon">
-                  <img alt=""
+                  <img
+                    alt=""
                     style={firstIconStyle}
                     className="lazy loaded"
                     data-src="https://kontakt.az/wp-content/uploads/2022/10/Telefon.png"
                     src="https://kontakt.az/wp-content/uploads/2022/10/Telefon.png"
                     data-was-processed="true"
                   />
-                  <img alt=""
+                  <img
+                    alt=""
                     className="active lazy"
                     style={secondIconStyle}
                     data-src="https://kontakt.az/wp-content/uploads/2022/10/Telefon.png"
@@ -429,7 +455,8 @@ const HomeTop = () => {
                   </li>
                   <li class="datt3">
                     <Link href="https://kontakt.az/telefonlar/mobil-telefonlar/oppo/">
-                      <img alt=""
+                      <img
+                        alt=""
                         class="menurightbanner menucustombnnr lazy loaded"
                         src="https://kontakt.az/wp-content/uploads/2023/01/Artboard-1-copy-11@3x-1-scaled.webp"
                         data-src="https://kontakt.az/wp-content/uploads/2023/01/Artboard-1-copy-11@3x-1-scaled.webp"
@@ -437,7 +464,8 @@ const HomeTop = () => {
                       />
                     </Link>
                     <Link href="https://kontakt.az/?s=blackview+a95">
-                      <img alt=""
+                      <img
+                        alt=""
                         class="menurightbanner menucustombnnr lazy loaded"
                         src="https://kontakt.az/wp-content/uploads/2023/01/Artboard-1-copy-13@3x-scaled.webp"
                         data-src="https://kontakt.az/wp-content/uploads/2023/01/Artboard-1-copy-13@3x-scaled.webp"
@@ -452,14 +480,16 @@ const HomeTop = () => {
             <li>
               <Link>
                 <div className="icon">
-                  <img alt=""
+                  <img
+                    alt=""
                     style={firstIconStyle}
                     className="lazy loaded"
                     data-src="https://kontakt.az/wp-content/uploads/2022/10/Saat.png"
                     src="https://kontakt.az/wp-content/uploads/2022/10/Saat.png"
                     data-was-processed="true"
                   />
-                  <img alt=""
+                  <img
+                    alt=""
                     className="active lazy"
                     style={secondIconStyle}
                     data-src="https://kontakt.az/wp-content/uploads/2022/10/Saat.png"
@@ -685,7 +715,8 @@ const HomeTop = () => {
                   </li>
                   <li class="datt3">
                     <Link href="https://kontakt.az/apple-watch-8-45-mm/">
-                      <img alt=""
+                      <img
+                        alt=""
                         class="menurightbanner menucustombnnr lazy loaded"
                         src="https://kontakt.az/wp-content/uploads/2023/01/Artboard-1-copy-4@3x-6-1-scaled.webp"
                         data-src="https://kontakt.az/wp-content/uploads/2023/01/Artboard-1-copy-4@3x-6-1-scaled.webp"
@@ -693,7 +724,8 @@ const HomeTop = () => {
                       />
                     </Link>
                     <Link href="https://kontakt.az/?s=band+7+pro">
-                      <img alt=""
+                      <img
+                        alt=""
                         class="menurightbanner menucustombnnr lazy loaded"
                         src="https://kontakt.az/wp-content/uploads/2023/01/Artboard-1-copy-3@3x-7-1-scaled.webp"
                         data-src="https://kontakt.az/wp-content/uploads/2023/01/Artboard-1-copy-3@3x-7-1-scaled.webp"
@@ -708,14 +740,16 @@ const HomeTop = () => {
             <li>
               <Link>
                 <div className="icon">
-                  <img alt=""
+                  <img
+                    alt=""
                     style={firstIconStyle}
                     className="lazy loaded"
                     data-src="https://kontakt.az/wp-content/uploads/2022/10/Komputer.png"
                     src="https://kontakt.az/wp-content/uploads/2022/10/Komputer.png"
                     data-was-processed="true"
                   />
-                  <img alt=""
+                  <img
+                    alt=""
                     className="active lazy"
                     style={secondIconStyle}
                     data-src="https://kontakt.az/wp-content/uploads/2022/10/Komputer.png"
@@ -1127,7 +1161,8 @@ const HomeTop = () => {
                   </li>
                   <li class="datt3">
                     <Link href="https://kontakt.az/lenovo-idepad-1-14-81vu00d6us/">
-                      <img alt=""
+                      <img
+                        alt=""
                         class="menurightbanner menucustombnnr lazy loaded"
                         src="https://kontakt.az/wp-content/uploads/2023/01/Artboard-1-copy-17@3x-scaled.webp"
                         data-src="https://kontakt.az/wp-content/uploads/2023/01/Artboard-1-copy-17@3x-scaled.webp"
@@ -1142,14 +1177,16 @@ const HomeTop = () => {
             <li>
               <Link>
                 <div className="icon">
-                  <img alt=""
+                  <img
+                    alt=""
                     style={firstIconStyle}
                     className="lazy loaded"
                     data-src="https://kontakt.az/wp-content/uploads/2022/10/soyuducu.png"
                     src="https://kontakt.az/wp-content/uploads/2022/10/soyuducu.png"
                     data-was-processed="true"
                   />
-                  <img alt=""
+                  <img
+                    alt=""
                     className="active lazy"
                     style={secondIconStyle}
                     data-src="https://kontakt.az/wp-content/uploads/2022/10/soyuducu.png"
@@ -1563,7 +1600,8 @@ const HomeTop = () => {
                   </li>
                   <li class="datt3">
                     <Link href="https://kontakt.az/mikrodalgali-soba-hoffmann-g2390s/">
-                      <img alt=""
+                      <img
+                        alt=""
                         class="menurightbanner menucustombnnr lazy loaded"
                         src="https://kontakt.az/wp-content/uploads/2023/01/Artboard-1-copy-8@3x-1-scaled.webp"
                         data-src="https://kontakt.az/wp-content/uploads/2023/01/Artboard-1-copy-8@3x-1-scaled.webp"
@@ -1578,14 +1616,16 @@ const HomeTop = () => {
             <li>
               <Link>
                 <div className="icon">
-                  <img alt=""
+                  <img
+                    alt=""
                     style={firstIconStyle}
                     className="lazy loaded"
                     data-src="https://kontakt.az/wp-content/uploads/2022/10/Paltaryuyan-1.png"
                     src="https://kontakt.az/wp-content/uploads/2022/10/Paltaryuyan-1.png"
                     data-was-processed="true"
                   />
-                  <img alt=""
+                  <img
+                    alt=""
                     className="active lazy"
                     style={secondIconStyle}
                     data-src="https://kontakt.az/wp-content/uploads/2022/10/Paltaryuyan-1.png"
@@ -1967,14 +2007,16 @@ const HomeTop = () => {
             <li>
               <Link>
                 <div className="icon">
-                  <img alt=""
+                  <img
+                    alt=""
                     style={firstIconStyle}
                     className="lazy loaded"
                     data-src="https://kontakt.az/wp-content/uploads/2022/10/Fotoaparat.png"
                     src="https://kontakt.az/wp-content/uploads/2022/10/Fotoaparat.png"
                     data-was-processed="true"
                   />
-                  <img alt=""
+                  <img
+                    alt=""
                     className="active lazy"
                     style={secondIconStyle}
                     data-src="https://kontakt.az/wp-content/uploads/2022/10/Fotoaparat.png"
@@ -2092,7 +2134,8 @@ const HomeTop = () => {
                   </li>
                   <li class="datt3">
                     <Link href="https://kontakt.az/foto-ve-video/peshakar-fotoaparatlar/leica-fotoaparat/">
-                      <img alt=""
+                      <img
+                        alt=""
                         class="menurightbanner menucustombnnr lazy loaded"
                         src="https://kontakt.az/wp-content/uploads/2022/12/Artboard-21@3x_png.webp"
                         data-src="https://kontakt.az/wp-content/uploads/2022/12/Artboard-21@3x_png.webp"
@@ -2100,7 +2143,8 @@ const HomeTop = () => {
                       />
                     </Link>
                     <Link href="https://kontakt.az/insta360-one-x2-and-matterport-tripod/">
-                      <img alt=""
+                      <img
+                        alt=""
                         class="menurightbanner menucustombnnr lazy loaded"
                         src="https://kontakt.az/wp-content/uploads/2022/12/Artboard-17@3x_png.webp"
                         data-src="https://kontakt.az/wp-content/uploads/2022/12/Artboard-17@3x_png.webp"
@@ -2115,14 +2159,16 @@ const HomeTop = () => {
             <li>
               <Link>
                 <div className="icon">
-                  <img alt=""
+                  <img
+                    alt=""
                     style={firstIconStyle}
                     className="lazy loaded"
                     data-src="https://kontakt.az/wp-content/uploads/2022/10/Oyun.png"
                     src="https://kontakt.az/wp-content/uploads/2022/10/Oyun.png"
                     data-was-processed="true"
                   />
-                  <img alt=""
+                  <img
+                    alt=""
                     className="active lazy"
                     style={secondIconStyle}
                     data-src="https://kontakt.az/wp-content/uploads/2022/10/Oyun.png"
@@ -2408,7 +2454,8 @@ const HomeTop = () => {
                   </li>
                   <li class="datt3">
                     <Link href="https://kontakt.az/playstation-vr2/">
-                      <img alt=""
+                      <img
+                        alt=""
                         class="menurightbanner menucustombnnr lazy loaded"
                         src="https://kontakt.az/wp-content/uploads/2023/04/VR-1x1-sayt-banner-aze_png.webp"
                         data-src="https://kontakt.az/wp-content/uploads/2023/04/VR-1x1-sayt-banner-aze_png.webp"
@@ -2416,7 +2463,8 @@ const HomeTop = () => {
                       />
                     </Link>
                     <Link href="https://kontakt.az/hoverboard-zigzag-k8-graffiti/">
-                      <img alt=""
+                      <img
+                        alt=""
                         class="menurightbanner menucustombnnr lazy loaded"
                         src="https://kontakt.az/wp-content/uploads/2023/01/Artboard-1-copy-5@3x-4-scaled.webp"
                         data-src="https://kontakt.az/wp-content/uploads/2023/01/Artboard-1-copy-5@3x-4-scaled.webp"
@@ -2431,14 +2479,16 @@ const HomeTop = () => {
             <li>
               <Link>
                 <div className="icon">
-                  <img alt=""
+                  <img
+                    alt=""
                     style={firstIconStyle}
                     className="lazy loaded"
                     data-src="https://kontakt.az/wp-content/uploads/2022/10/Alətlər.png"
                     src="https://kontakt.az/wp-content/uploads/2022/10/Alətlər.png"
                     data-was-processed="true"
                   />
-                  <img alt=""
+                  <img
+                    alt=""
                     className="active lazy"
                     style={secondIconStyle}
                     data-src="https://kontakt.az/wp-content/uploads/2022/10/Alətlər.png"
@@ -2813,7 +2863,8 @@ const HomeTop = () => {
                   </li>
                   <li class="datt3">
                     <Link href="https://kontakt.az/qaynaq-aparati-powerfull-mma-300-a/">
-                      <img alt=""
+                      <img
+                        alt=""
                         class="menurightbanner menucustombnnr lazy loaded"
                         src="https://kontakt.az/wp-content/uploads/2023/02/bosch-banner2_png.webp"
                         data-src="https://kontakt.az/wp-content/uploads/2023/02/bosch-banner2_png.webp"
@@ -2821,7 +2872,8 @@ const HomeTop = () => {
                       />
                     </Link>
                     <Link href="https://kontakt.az/ru/uglovaya-shlifmashina-bosch-gws-7-125/?_sgm_campaign=product&amp;_sgm_source=TM-MT-TTM-1198-TS-0010&amp;_sgm_action=search&amp;_sgm_term=gws+7-125">
-                      <img alt=""
+                      <img
+                        alt=""
                         class="menurightbanner menucustombnnr lazy loaded"
                         src="https://kontakt.az/wp-content/uploads/2023/02/bosch-banner1_png.webp"
                         data-src="https://kontakt.az/wp-content/uploads/2023/02/bosch-banner1_png.webp"
@@ -2836,14 +2888,16 @@ const HomeTop = () => {
             <li>
               <Link>
                 <div className="icon">
-                  <img alt=""
+                  <img
+                    alt=""
                     style={firstIconStyle}
                     className="lazy loaded"
                     data-src="https://kontakt.az/wp-content/uploads/2022/10/Avtomobil-2.png"
                     src="https://kontakt.az/wp-content/uploads/2022/10/Avtomobil-2.png"
                     data-was-processed="true"
                   />
-                  <img alt=""
+                  <img
+                    alt=""
                     className="active lazy"
                     style={secondIconStyle}
                     data-src="https://kontakt.az/wp-content/uploads/2022/10/Avtomobil-2.png"
@@ -3035,7 +3089,8 @@ const HomeTop = () => {
                   </li>
                   <li class="datt3">
                     <Link href="https://kontakt.az/aletler-ve-avto-mehsul/abtomobil-mehsullari/tekerler/">
-                      <img alt=""
+                      <img
+                        alt=""
                         class="menurightbanner menucustombnnr lazy loaded"
                         src="https://kontakt.az/wp-content/uploads/2022/12/Artboard-13@3x_png.webp"
                         data-src="https://kontakt.az/wp-content/uploads/2022/12/Artboard-13@3x_png.webp"
@@ -3043,7 +3098,8 @@ const HomeTop = () => {
                       />
                     </Link>
                     <Link href="https://kontakt.az/abtomobil-mehsullari/ehtiyyat-hisseleri/avtomobil-ucun-akustik-sistem/">
-                      <img alt=""
+                      <img
+                        alt=""
                         class="menurightbanner menucustombnnr lazy loaded"
                         src="https://kontakt.az/wp-content/uploads/2022/12/Artboard-11@3x_png.webp"
                         data-src="https://kontakt.az/wp-content/uploads/2022/12/Artboard-11@3x_png.webp"
@@ -3058,14 +3114,16 @@ const HomeTop = () => {
             <li>
               <Link>
                 <div className="icon">
-                  <img alt=""
+                  <img
+                    alt=""
                     style={firstIconStyle}
                     className="lazy loaded"
                     data-src="https://kontakt.az/wp-content/uploads/2022/10/Divan.png"
                     src="https://kontakt.az/wp-content/uploads/2022/10/Divan.png"
                     data-was-processed="true"
                   />
-                  <img alt=""
+                  <img
+                    alt=""
                     className="active lazy"
                     style={secondIconStyle}
                     data-src="https://kontakt.az/wp-content/uploads/2022/10/Divan.png"
@@ -3371,7 +3429,8 @@ const HomeTop = () => {
                   </li>
                   <li class="datt3">
                     <Link href="https://kontakt.az/battaniye-tekstil-sv-roslin-battaniye-tkyasil/">
-                      <img alt=""
+                      <img
+                        alt=""
                         class="menurightbanner menucustombnnr lazy loaded"
                         src="https://kontakt.az/wp-content/uploads/2023/01/Artboard-2@3x-scaled.webp"
                         data-src="https://kontakt.az/wp-content/uploads/2023/01/Artboard-2@3x-scaled.webp"
@@ -3379,7 +3438,8 @@ const HomeTop = () => {
                       />
                     </Link>
                     <Link href="https://kontakt.az/imfa-mobilya-imfa-marsel-yataq-desti/">
-                      <img alt=""
+                      <img
+                        alt=""
                         class="menurightbanner menucustombnnr lazy loaded"
                         src="https://kontakt.az/wp-content/uploads/2023/01/a0ccc8f1-b33e-4cf6-98f8-6887e43fb891_png.webp"
                         data-src="https://kontakt.az/wp-content/uploads/2023/01/a0ccc8f1-b33e-4cf6-98f8-6887e43fb891_png.webp"
@@ -3394,14 +3454,16 @@ const HomeTop = () => {
             <li>
               <Link>
                 <div className="icon">
-                  <img alt=""
+                  <img
+                    alt=""
                     style={firstIconStyle}
                     className="lazy loaded"
                     data-src="https://kontakt.az/wp-content/uploads/2022/10/Dipcək.png"
                     src="https://kontakt.az/wp-content/uploads/2022/10/Dipcək.png"
                     data-was-processed="true"
                   />
-                  <img alt=""
+                  <img
+                    alt=""
                     className="active lazy"
                     style={secondIconStyle}
                     data-src="https://kontakt.az/wp-content/uploads/2022/10/Dipcək.png"
@@ -3731,14 +3793,16 @@ const HomeTop = () => {
             <li>
               <Link>
                 <div className="icon">
-                  <img alt=""
+                  <img
+                    alt=""
                     style={firstIconStyle}
                     className="lazy loaded"
                     data-src="https://kontakt.az/wp-content/uploads/2022/10/Canta-1.png"
                     src="https://kontakt.az/wp-content/uploads/2022/10/Canta-1.png"
                     data-was-processed="true"
                   />
-                  <img alt=""
+                  <img
+                    alt=""
                     className="active lazy"
                     style={secondIconStyle}
                     data-src="https://kontakt.az/wp-content/uploads/2022/10/Canta-1.png"
@@ -4018,14 +4082,16 @@ const HomeTop = () => {
             <li>
               <Link>
                 <div className="icon">
-                  <img alt=""
+                  <img
+                    alt=""
                     style={firstIconStyle}
                     className="lazy loaded"
                     data-src="https://kontakt.az/wp-content/uploads/2022/10/Canta.png"
                     src="https://kontakt.az/wp-content/uploads/2022/10/Canta.png"
                     data-was-processed="true"
                   />
-                  <img alt=""
+                  <img
+                    alt=""
                     className="active lazy"
                     style={secondIconStyle}
                     data-src="https://kontakt.az/wp-content/uploads/2022/10/Canta.png"
@@ -4247,7 +4313,8 @@ const HomeTop = () => {
                   </li>
                   <li class="datt3">
                     <Link href="https://kontakt.az/dect-panasonic-baby-cam-kx-hn3001ruw-2/">
-                      <img alt=""
+                      <img
+                        alt=""
                         class="menurightbanner menucustombnnr lazy loaded"
                         src="https://kontakt.az/wp-content/uploads/2023/01/Artboard-1-copy-5@3x-7-scaled.webp"
                         data-src="https://kontakt.az/wp-content/uploads/2023/01/Artboard-1-copy-5@3x-7-scaled.webp"
@@ -4262,14 +4329,16 @@ const HomeTop = () => {
             <li>
               <Link>
                 <div className="icon">
-                  <img alt=""
+                  <img
+                    alt=""
                     style={firstIconStyle}
                     className="lazy loaded"
                     data-src="https://kontakt.az/wp-content/uploads/2022/09/29fafe3d-6095-4c2e-8fc1-39678474bb1b.png"
                     src="https://kontakt.az/wp-content/uploads/2022/09/29fafe3d-6095-4c2e-8fc1-39678474bb1b.png"
                     data-was-processed="true"
                   />
-                  <img alt=""
+                  <img
+                    alt=""
                     className="active lazy"
                     style={secondIconStyle}
                     data-src="https://kontakt.az/wp-content/uploads/2022/09/29fafe3d-6095-4c2e-8fc1-39678474bb1b.png"
@@ -4398,42 +4467,42 @@ const HomeTop = () => {
             >
               <div className="carousel-inner">
                 <div className="carousel-item active">
-                  <img 
+                  <img
                     className="d-block w-100"
                     src="https://kontakt.az/wp-content/uploads/2022/09/kombi-az-1.jpg"
                     alt="First slide"
                   />
                 </div>{" "}
                 <div className="carousel-item ">
-                  <img 
+                  <img
                     className="d-block w-100"
                     src="https://kontakt.az/wp-content/uploads/2023/02/Artboard-1-copy@3x-scaled.jpg"
                     alt="First slide"
                   />
                 </div>
                 <div className="carousel-item">
-                  <img 
+                  <img
                     className="d-block w-100"
                     src="https://kontakt.az/wp-content/uploads/2023/01/Artboard-1@3x-scaled.webp"
                     alt="Second slide"
                   />
                 </div>
                 <div className="carousel-item">
-                  <img 
+                  <img
                     className="d-block w-100"
                     src="https://kontakt.az/wp-content/uploads/2023/02/4f1a4c62-0ed7-4bda-91c8-c66a37b10d0d_1_png.webp"
                     alt="Third slide"
                   />
                 </div>
                 <div className="carousel-item">
-                  <img 
+                  <img
                     className="d-block w-100"
                     src="https://kontakt.az/wp-content/uploads/2023/02/Macbook-Air_Valentines-Day-banner-aze_png.webp"
                     alt="Third slide"
                   />
                 </div>
                 <div className="carousel-item">
-                  <img 
+                  <img
                     className="d-block w-100"
                     src="https://kontakt.az/wp-content/uploads/2023/02/Galaxy-S23-Series-Pre-order-banner-aze-scaled.jpg"
                     alt="Third slide"
@@ -4469,35 +4538,31 @@ const HomeTop = () => {
             <section id="delivery">
               <div className="delivery-main">
                 <div className="delivery-container">
-                  <div className="delivery-info">
-                    <img alt="" src="https://kontakt.az/wp-content/uploads/2021/09/1.png" />
-                    <p>Qapıda rəsmiləşdirmə</p>
-                    <p>Nağd, hissə-hissə və ya kartla ödəmə imkanı ilə</p>
-                  </div>
-
-                  <div className="delivery-info">
-                    <img alt="" src="https://kontakt.az/wp-content/uploads/2021/09/2.png" />
-                    <p>Rəsmi Zəmanət</p>
-                    <p>3 ilədək rəsmi zəmanət</p>
-                  </div>
-
-                  <div className="delivery-info">
-                    <img alt="" src="https://kontakt.az/wp-content/uploads/2021/09/3.png" />
-                    <p> Pulsuz çatdırılma</p>
-                    <p>Sürətli, təhlükəsiz və təmassız</p>
-                  </div>
+                  {deliveryInfos.map((info) => (
+                    <div className="delivery-info">
+                      <img alt="info" src={info.src} />
+                      <p>{info.title}</p>
+                      <p>{info.description}</p>
+                    </div>
+                  ))}
                 </div>
               </div>
             </section>
             <section className="home-top-bottom">
               <div className="home-top-bottom-left">
                 <Link>
-                  <img alt="" src="https://kontakt.az/wp-content/uploads/2023/02/610x180-1-1024x303_png.webp" />
+                  <img
+                    alt=""
+                    src="https://kontakt.az/wp-content/uploads/2023/02/610x180-1-1024x303_png.webp"
+                  />
                 </Link>
               </div>
               <div className="home-top-bottom-right">
                 <Link>
-                  <img alt="" src="https://kontakt.az/wp-content/uploads/2023/02/banner-az-1024x302_png.webp" />
+                  <img
+                    alt=""
+                    src="https://kontakt.az/wp-content/uploads/2023/02/banner-az-1024x302_png.webp"
+                  />
                 </Link>
               </div>
             </section>
@@ -4529,7 +4594,7 @@ const HomeTop = () => {
                 <Countdown />
                 <div className="carousel-inner carousel-inner-right">
                   <div className="carousel-item active">
-                    <img 
+                    <img
                       className="d-block w-100"
                       src="https://kontakt.az/wp-content/uploads/gallery-tum/TM-DG-SBP-1105-SM-2177_fb0fe46be560964ec391377cd0fb50f0_w_png.webp"
                       alt="First slide"
@@ -4550,7 +4615,7 @@ const HomeTop = () => {
                     </div>
                   </div>
                   <div className="carousel-item">
-                    <img 
+                    <img
                       className="d-block w-100"
                       src="https://kontakt.az/wp-content/uploads/gallery-tum/TM-DG-KOT-1114-NB-1132_996b0ee98108335c7417e52da72c6b76_w_png.webp"
                       alt="Second slide"
@@ -4571,7 +4636,7 @@ const HomeTop = () => {
                     </div>
                   </div>
                   <div className="carousel-item">
-                    <img 
+                    <img
                       className="d-block w-100"
                       src="https://kontakt.az/wp-content/uploads/gallery-tum/TM-TK-QNT-1143-SF-0032_2ba5995dd25c38660b25555c5670661a_w.jpg"
                       alt="Third slide"

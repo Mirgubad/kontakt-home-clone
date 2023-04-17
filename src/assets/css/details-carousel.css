@@ -10,6 +10,9 @@
   width: 100px !important;
 }
 
+.slick-vertical .slick-slide {
+  height: 80px !important;
+}
 .slick-list img {
   width: 100% !important;
   height: 370px !important;
@@ -20,12 +23,49 @@
   width: 68px !important;
   height: 70px !important;
   object-fit: contain;
+  border: 1px solid #d8d8d8;
+  cursor: pointer;
+  padding: 2px;
+}
+
+.modal-photo {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+}
+.modal-photo-close-btn{
+  all: unset;
+  padding: 5px;
+  border-radius: 50%;
+  top: -20px;
+  right: -50px;
+  background: white;
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .3s linear;
+}
+.modal-photo-close-btn:hover{
+color: red;
+transform: rotate(90deg);
+
 }
 
 
+.modal-photo img {
+  height:550px;
+  border-radius: 10px;
+}
+
 .slick-list {
   height: 400px;
-  width: 455px;
+  width: 90px;
 }
 
 .slick-slider button::before {

@@ -95,10 +95,16 @@
   font-size: 14px;
 }
 
-.big-photo img {
-  width: 400px;
-  height: 380px;
+.big-photo{
+  margin: auto;
+  cursor: pointer;
 }
+.big-photo img {
+  max-width: 400px;
+  height: 380px;
+
+}
+
 
 .label_popovers {
   display: flex;

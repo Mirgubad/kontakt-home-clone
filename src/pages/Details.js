@@ -238,7 +238,7 @@ export default function Details() {
                     <span className="bar">
                       <span className="fill"></span>
                     </span>
-                    <input type="range" min="6" max="18" step="3"  />
+                    <input type="range" min="6" max="18" step="3" />
                   </div>
                   <ul>
                     <li>
@@ -456,6 +456,7 @@ export default function Details() {
       </div>
       <SimilarProducts />
       <SeasonSale />
+      <div id="lightboxOverlay"></div>
     </section>
   );
 }
