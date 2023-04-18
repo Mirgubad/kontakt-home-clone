@@ -1,0 +1,23 @@
+.buy-creditBtn,
+.buy-cashBtn,
+.buy-online-btn {
+  all: unset;
+  background: #ebebeb;
+  padding: 10px 40px;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 700;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.buy-creditBtn:hover,
+.buy-online-btn:hover,
+.buy-cashBtn:hover {
+  background: red;
+  color: white !important;
+}
+
+.buy-online-btn {
+  color: red;
+}

@@ -52,11 +52,21 @@ a {
   transform: scaleY(0);
 }
 
+.sidebar-menu .icon .loaded {
+  width: 22px;
+  max-height: 30px;
+}
+
+.sidebar-menu .icon .active {
+  display: none;
+  width: 22px;
+  max-height: 30px;
+}
+
 .sidebar-menu li:hover .menu-open {
   opacity: 1;
   transform: scale(1);
 }
-
 
 .menulicontainer {
   margin-bottom: 10px;
@@ -108,8 +118,6 @@ a {
   background-color: rgba(204, 202, 202, 0.729);
   cursor: pointer;
 }
-
-
 
 .product-menu li:hover .title::after {
   opacity: 0;
