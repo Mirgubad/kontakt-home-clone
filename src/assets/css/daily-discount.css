@@ -43,3 +43,37 @@
     color: white;
     cursor: pointer;
 }
+
+
+#dailyDiscount nav {
+  width: 75%;
+}
+
+#dailyDiscount > div > div.selling-lider-head .active {
+  background-color: transparent;
+}
+
+#dailyDiscount .nav-item {
+  margin-bottom: 15px;
+}
+
+#dailyDiscount .nav-link {
+  all: unset;
+  padding: 10px;
+  color: black !important;
+  background-color: #edf1f5;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.tabs {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.tabs nav{
+  width: 70%;
+}
+
+

@@ -1,4 +1,3 @@
-import "../assets/css/sidebar-menu.css";
 import SideBarMenu from "./SideBarMenu";
 import DeliveryInfo from "./DeliveryInfo";
 import BannerSection from "./BannerSection";

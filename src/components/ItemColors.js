@@ -1,11 +1,14 @@
 import React from "react";
 
-export default function ItemColors() {
+export default function ItemColors(props) {
+  console.log(props.colors);
+  props.colors.map((c) => console.log(c));
   return (
     <div className="color">
       <p>Rəng:</p>
-      <button className="black" title="Black"></button>
-      <button className="red" title="Red"></button>
+      {props.colors.map((color) => (
+        <button className={color} title={color}></button>
+      ))}
     </div>
   );
 }

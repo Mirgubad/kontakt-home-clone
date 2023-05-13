@@ -1,7 +1,10 @@
 import React from "react";
 import OwlCarousel from "react-owl-carousel";
-import "../assets/css/daily-discount.css";
 import { Link } from "react-router-dom";
+
+import '../assets/css/daily-discount.css';
+import "../assets/css/owlslider.css";
+import FilterProduct from "./FilterProduct";
 
 const products = [
   {
@@ -74,11 +77,11 @@ const owlOptions={
   button:false,
   autoplayHoverPause:true
 }
-export default function DailyDiscount() {
+export default function DailyDiscount(props) {
   return (
     <section id="dailyDiscount">
       <div className="container">
-        <h3 className="special_header">Həftənin təklifləri</h3>
+        <h3 className="special_header">{props.title}</h3>
         <div className="shop-slider">
           <OwlCarousel
             className="owl-theme"

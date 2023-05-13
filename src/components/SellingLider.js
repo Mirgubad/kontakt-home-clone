@@ -2,6 +2,7 @@ import React from "react";
 import OwlCarousel from "react-owl-carousel";
 import "../assets/css/selling-lider.css";
 import { Link } from "react-router-dom";
+import FilterProduct from "./FilterProduct";
 
 const products = [
   {
@@ -12,9 +13,9 @@ const products = [
     price: "399.99M",
     fee: true,
     comission: false,
-    display:"6.6",
-    storage:"128GB",
-    ram:"8GB"
+    display: "6.6",
+    storage: "128GB",
+    ram: "8GB",
   },
   {
     id: 2,
@@ -24,9 +25,9 @@ const products = [
     price: "399.99M",
     fee: true,
     comission: true,
-    display:"4.6",
-    storage:"256GB",
-    ram:"16GB"
+    display: "4.6",
+    storage: "256GB",
+    ram: "16GB",
   },
   {
     id: 3,
@@ -36,9 +37,9 @@ const products = [
     price: "499.99M",
     fee: true,
     comission: true,
-    display:"7.0",
-    storage:"128GB",
-    ram:"32GB"
+    display: "7.0",
+    storage: "128GB",
+    ram: "32GB",
   },
   {
     id: 4,
@@ -48,9 +49,9 @@ const products = [
     price: "1399.99M",
     fee: true,
     comission: false,
-    display:"1200",
-    storage:"128GB",
-    ram:"8GB"
+    display: "1200",
+    storage: "128GB",
+    ram: "8GB",
   },
   {
     id: 5,
@@ -60,174 +61,75 @@ const products = [
     price: "2399.99M",
     fee: false,
     comission: true,
-    display:"800",
-    storage:"28GB",
-    ram:"8GB"
+    display: "800",
+    storage: "28GB",
+    ram: "8GB",
   },
 ];
 
-const owlOptions={
-  nav:false,
-  loop:true,
-  autoplay:true,
-  items:4.5,
-  button:false,
-  autoplayHoverPause:true
-}
+const owlOptions = {
+  nav: false,
+  loop: true,
+  autoplay: true,
+  items: 4.5,
+  button: false,
+  autoplayHoverPause: true,
+};
 
 export default function SellingLider() {
   return (
     <section id="sellingLider">
       <div className="container">
         <div className="selling-lider-head">
-          <h3 className="special_header">Satış Lideri</h3>
-          <nav>
-            <ul class="nav nav-tabs round-edge-tab">
-              <li class="nav-item">
-                <Link
-                  class="nav-link active"
-                  href="#mobil-telefonlar"
-                  data-toggle="tab"
-                >
-                  Smartfon
-                </Link>
-              </li>
-              <li class="nav-item">
-                <Link class="nav-link" href="#tv-audio-video" data-toggle="tab">
-                  Televizor
-                </Link>
-              </li>
-              <li class="nav-item">
-                <Link class="nav-link" href="#komputerler" data-toggle="tab">
-                  Noutbuk
-                </Link>
-              </li>
-              <li class="nav-item">
-                <Link
-                  class="nav-link "
-                  href="#kombiveradiatorlar"
-                  data-toggle="tab"
-                >
-                  Kombi
-                </Link>
-              </li>
-              <li class="nav-item">
-                <Link class="nav-link " href="#smartsaatlar" data-toggle="tab">
-                  Smartsaat
-                </Link>
-              </li>
-              <li class="nav-item">
-                <Link
-                  class="nav-link "
-                  href="#qulaqliqlar-umumi"
-                  data-toggle="tab"
-                >
-                  Qulaqlıqlar
-                </Link>
-              </li>
-              <li class="nav-item">
-                <Link class="nav-link " href="#soyuducu" data-toggle="tab">
-                  Soyuducu
-                </Link>
-              </li>
-              <li class="nav-item">
-                <Link class="nav-link " href="#paltaryuyan" data-toggle="tab">
-                  Paltaryuyan
-                </Link>
-              </li>
-              <li class="nav-item">
-                <Link class="nav-link " href="#tozsoran" data-toggle="tab">
-                  Tozsoran
-                </Link>
-              </li>
-              <li class="nav-item">
-                <Link class="nav-link " href="#plansetler" data-toggle="tab">
-                  Planşet
-                </Link>
-              </li>
-              <li class="nav-item">
-                <Link class="nav-link " href="#qabyuyan" data-toggle="tab">
-                  Qabyuyan
-                </Link>
-              </li>
-              <li class="nav-item">
-                <Link class="nav-link " href="#utu" data-toggle="tab">
-                  Ütü
-                </Link>
-              </li>
-              <li class="nav-item">
-                <Link class="nav-link " href="#fenhava" data-toggle="tab">
-                  Fen
-                </Link>
-              </li>
-              <li class="nav-item">
-                <Link class="nav-link " href="#etceken" data-toggle="tab">
-                  Ətçəkən
-                </Link>
-              </li>
-              <li class="nav-item">
-                <Link class="nav-link " href="#blender" data-toggle="tab">
-                  Blender
-                </Link>
-              </li>
-              <li class="nav-item">
-                <Link
-                  class="nav-link "
-                  href="#mikrodalgali-soba"
-                  data-toggle="tab"
-                >
-                  Mikrodalğalı soba
-                </Link>
-              </li>
-              <li class="nav-item">
-                <Link class="nav-link " href="#mebel" data-toggle="tab">
-                  Mebel
-                </Link>
-              </li>
-              <li class="nav-item">
-                <Link class="nav-link " href="#tekstil" data-toggle="tab">
-                  Tekstil
-                </Link>
-              </li>{" "}
-            </ul>
-          </nav>
+          <h3 className="special_header d-block">Satış Lideri</h3>
         </div>
+          <FilterProduct />
 
-        <OwlCarousel
-          className="owl-theme"
-         {...owlOptions}
-        >
+        <OwlCarousel className="owl-theme" {...owlOptions}>
           {products.map((product) => (
             <div className="item" key={product.id}>
               <div className="item-top-right">
-                <span style={{display:product.fee?"block":"none"}} className="no_fee">faizsiz</span>
-                <span style={{display:product.comission?"block":"none"}} className="no_comission">komissiyasız</span>
+                <span
+                  style={{ display: product.fee ? "block" : "none" }}
+                  className="no_fee"
+                >
+                  faizsiz
+                </span>
+                <span
+                  style={{ display: product.comission ? "block" : "none" }}
+                  className="no_comission"
+                >
+                  komissiyasız
+                </span>
               </div>
-             <Link to="/details">
-             <div className="item-center">
-                <img alt="" src={product.img} />
-                <h6>{product.title}</h6>
-                <div className="owl-item-bottom">
-                  <div>
-                    <span className="old_price">{product.old_price}</span>
-                    <span className="current_price">{product.price}</span>
-                  </div>
-                  <div>
-                    <button className="add-to-basket">Səbətə at</button>
+              <Link to="/details">
+                <div className="item-center">
+                  <img alt="" src={product.img} />
+                  <h6>{product.title}</h6>
+                  <div className="owl-item-bottom">
+                    <div>
+                      <span className="old_price">{product.old_price}</span>
+                      <span className="current_price">{product.price}</span>
+                    </div>
+                    <div>
+                      <button className="add-to-basket">Səbətə at</button>
+                    </div>
                   </div>
                 </div>
-              </div>
-             </Link>
-             <div className="bottom-features" data-id={product.id}>
+              </Link>
+              <div className="bottom-features" data-id={product.id}>
                 <ul>
                   <li>
-                    <span>Ekran </span><span>{product.display}</span>
+                    <span>Ekran </span>
+                    <span>{product.display}</span>
                   </li>
                   <li>
-                    <span>Daxili yaddaş </span><span>{product.storage}</span>
+                    <span>Daxili yaddaş </span>
+                    <span>{product.storage}</span>
                   </li>
                   <li>
-                    <span>Operativ yaddaş </span><span>{product.ram}</span>
+                    <span>Operativ yaddaş </span>
+                    <span>{product.ram}</span>
                   </li>
                 </ul>
                 <div className="action">

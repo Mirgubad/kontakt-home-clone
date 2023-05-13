@@ -5,8 +5,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import HeaderBreadCrumb from "../components/HeaderBreadCrumb";
 import AsNavFor from "../components/DetailsSlider";
-import SeasonSale from "../components/SeasonSale";
-import SimilarProducts from "../components/SimilarProducts";
 import FavouritesBtn from "../components/FavouritesBtn";
 import LiveAssistantBtn from "../components/LiveAssistantBtn";
 import CompareBtnDetails from "../components/CompareBtnDetails";
@@ -18,8 +16,10 @@ import BuyByCreditBtn from "../components/BuyByCreditBtn";
 import ReviewSection from "../components/ReviewSection";
 import DetailsPopover from "../components/DetailsPopover";
 import ItemColors from "../components/ItemColors";
+import DailyDiscount from "../components/DailyDiscount";
 
 export default function Details() {
+  var colors = ["red", "black"];
   return (
     <section className="product-details">
       <HeaderBreadCrumb />
@@ -59,7 +59,7 @@ export default function Details() {
               <div className="wrapper">
                 <h3>OPPO A77s 8/128 GB Orange</h3>
                 <div className="feature">
-                  <ItemColors />
+                  <ItemColors colors={colors} />
                   <DetailsPopover />
                 </div>
                 <div className="product_price">
@@ -86,8 +86,8 @@ export default function Details() {
           <ReviewSection />
         </div>
       </div>
-      <SimilarProducts />
-      <SeasonSale />
+      <DailyDiscount title="Oxşar məhsullar" />
+      <DailyDiscount title="Ən yaxşı sezon təklifləri" />
       <div id="lightboxOverlay"></div>
     </section>
   );
