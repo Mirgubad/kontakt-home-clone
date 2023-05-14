@@ -35,8 +35,7 @@ ul li > a {
 
 #header-bottom-section {
   height: 80px;
-  display: flex;
-  align-items: center;
+  padding:30px ;
 }
 
 .feaheart,
@@ -151,3 +150,4 @@ text-align: center;
   width: 100%;
   height: 100vh;
 }
+

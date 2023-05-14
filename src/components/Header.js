@@ -3,7 +3,7 @@ import "../assets/css/header.css";
 function Header() {
   return (
     <header>
-      <section id="header">
+      <section id="header" className="desktop-view">
         <div className="container">
           <div className="row">
             <div className="col-lg-7">
@@ -126,7 +126,7 @@ function Header() {
       </section>
       <section id="header-bottom-section">
         <div className="container">
-          <div className="row align-items-center" style={{gap:"26px"}}>
+          <div className="row align-items-center justify-content-sm-between"  style={{gap:"26px"}}>
             <div className="col-mm-2 col-md-2 col-9">
               <div className="logo">
               <Link to="/"> <svg
@@ -145,7 +145,7 @@ function Header() {
                   </svg></Link>
               </div>
             </div>
-            <div className="col-mm-2 col-md-1 header-inner-menu">
+            <div className="col-mm-2 col-md-1 header-inner-menu desktop-view">
               <div className="section-menu">
                 <button type="button" className="menu-icon">
                   <svg
@@ -168,7 +168,7 @@ function Header() {
                 <div className="form-group">
                   <input
                     type="text"
-                    className="form-control"
+                    className="form-control desktop-view"
                     name="s"
                     id="title-search-input"
                     placeholder="Axtarış..."
@@ -203,7 +203,7 @@ function Header() {
             </div>
             <div className="col-md-3 v-desktop login-cart">
               <ul>
-                <li>
+                <li className="desktop-view">
                   <Link>
                     <svg
                       width="24"
@@ -268,7 +268,7 @@ function Header() {
                         </clipPath>
                       </defs>
                     </svg>
-                    <span>Səbət</span>
+                    <span className="desktop-view">Səbət</span>
                     <span className="count cart_count">0</span>
                   </Link>
                 </li>

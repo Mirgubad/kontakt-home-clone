@@ -1,0 +1,38 @@
+@media screen and (max-width: 1200px) {
+  .sidebar-menu {
+    display: none;
+  }
+
+  .product-menu {
+    grid-template-columns: 100%;
+  }
+
+  .home-top-center {
+    width: 100%;
+  }
+
+  .home-top-bottom {
+   grid-template-columns: 73%;
+   row-gap: .7rem;
+  }
+  .home-top-bottom img {
+    height: 100%;
+  }
+
+  .desktop-view {
+    display: none !important;
+  }
+
+  #header-bottom-section > div > div > div.col-lg-5.col-6 > form > div > svg {
+    position: static !important;
+  }
+
+  .search-form::after {
+    content: none !important;
+  }
+
+  .delivery-container{
+    grid-template-columns: 100%;
+    row-gap: 1rem;
+  }
+}

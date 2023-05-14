@@ -23,7 +23,7 @@ export default function DeliveryInfo() {
   return (
     <section id="delivery">
       <div className="delivery-main">
-        <div className="delivery-container">
+        <div className="delivery-container text-center">
           {deliveryInfos.map((info) => (
             <div className="delivery-info">
               <img alt="info" src={info.src} />

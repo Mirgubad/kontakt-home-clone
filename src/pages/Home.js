@@ -3,7 +3,7 @@ import HomeTop from "../components/HomeTop";
 import KontaktTv from "../components/KontaktTv";
 import Partners from "../components/Partners";
 import SellingLider from "../components/SellingLider";
-
+import "../assets/css/responsive.css";
 function Home() {
   return (
     <div>

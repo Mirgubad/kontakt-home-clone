@@ -75,7 +75,23 @@ const owlOptions={
   autoplay:true,
   items:4.5,
   button:false,
-  autoplayHoverPause:true
+  autoplayHoverPause: true,
+  responsiveClass:true,
+  responsive:{
+      0:{
+          items:1,
+          nav:true
+      },
+      600:{
+          items:2,
+          nav:false
+      },
+      1000:{
+          items:4,
+          nav:true,
+          loop:false
+      }
+  }
 }
 export default function DailyDiscount(props) {
   return (

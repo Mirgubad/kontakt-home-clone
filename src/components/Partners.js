@@ -9,7 +9,23 @@ const owlOptions={
   items:7.5,
   button:false,
   autoplayHoverPause:true,
-  dots:false
+  dots: false,
+  responsiveClass:true,
+  responsive:{
+      0:{
+          items:2,
+          nav:true
+      },
+      600:{
+          items:3,
+          nav:false
+      },
+      1000:{
+          items:6,
+          nav:true,
+          loop:false
+      }
+  }
 }
 
 export default function Partners() {
